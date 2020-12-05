@@ -1,37 +1,34 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+title: 牧码人
+subtitle: 团队站
+description: 哇卡哇卡
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: mumaren
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "https://leopardpan.cn"
+avatarDesc: Linux / 前后端
+url: "https://mumaren-cmd.github.io/"
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
 
 # Comment
 comment:
-    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    livere: MTAyMC81MjEzMy8yODYxMw  # https://www.livere.com
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
+    github: mumaren-cmd
     # zhihu: panpanleopard
     # juejin: xxx
-    jianshu: 2ada30d8d0f7
+    # jianshu: 2ada30d8d0f7
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: mumaren_cmd@163.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id: 78839ba489cc8d4a4c45f8e76db1515b  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id

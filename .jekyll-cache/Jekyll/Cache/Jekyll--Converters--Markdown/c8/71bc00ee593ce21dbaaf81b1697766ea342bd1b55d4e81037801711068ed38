@@ -1,0 +1,29 @@
+I"�<h1 id="团队博客提交格式">团队博客提交格式</h1>
+
+<h2 id="一提交的md文档首部必须添加如下信息">一、提交的md文档首部必须添加如下信息</h2>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">ssh概述</span> <span class="c1">#文章标题</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">全面了解SSH 并应用到github上</span> <span class="c1">#文章描述</span>
+<span class="na">tag</span><span class="pi">:</span> <span class="s">zeroac</span> <span class="c1">#文章所属标签 可写你的昵称 方便归类</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">jekyll update</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h2 id="二md文档命名开头要以日期开始如下">二、md文档命名开头要以日期开始，如下</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">2020</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mo">06</span><span class="o">-</span><span class="err">自定义全英文名</span><span class="p">.</span><span class="n">md</span>
+</code></pre></div></div>
+
+<h2 id="三将md文件放入你们clone的仓库下的-_posts文件夹下即可">三、将md文件放入你们clone的仓库下的 <code class="language-plaintext highlighter-rouge">_posts</code>文件夹下即可</h2>
+
+<h2 id="四将其推送到远程服务器即可">四、将其推送到远程服务器即可</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="k">*</span>
+git commit <span class="nt">-m</span> <span class="s2">"某某提交关于啥啥的Blog"</span>
+git pull origin master <span class="c">#拉取最新分支</span>
+git push origin main <span class="c">#推送到服务器</span>
+</code></pre></div></div>
+
+:ET

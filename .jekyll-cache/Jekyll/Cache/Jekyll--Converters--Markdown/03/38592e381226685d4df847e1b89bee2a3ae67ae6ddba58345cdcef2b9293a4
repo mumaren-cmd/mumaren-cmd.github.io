@@ -1,0 +1,12 @@
+I"�
+<ul>
+  <li><a href="#团队博客提交格式">团队博客提交格式</a>
+    <ul>
+      <li><a href="#一提交的md文档首部必须添加如下信息">一、提交的md文档首部必须添加如下信息</a></li>
+      <li><a href="#二md文档命名开头要以日期开始如下">二、md文档命名开头要以日期开始，如下</a></li>
+      <li><a href="#三将md文件放入你们clone的仓库下的-_posts文件夹下即可">三、将md文件放入你们clone的仓库下的 <code class="language-plaintext highlighter-rouge">_posts</code>文件夹下即可</a></li>
+      <li><a href="#四将其推送到远程服务器即可">四、将其推送到远程服务器即可</a></li>
+    </ul>
+  </li>
+</ul>
+:ET
