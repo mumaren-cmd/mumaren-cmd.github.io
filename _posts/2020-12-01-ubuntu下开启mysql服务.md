@@ -2,7 +2,7 @@
 layout: post
 title: ubuntu下开启mysql服务 #文章标题
 description: 介绍8.0版本mysql的DCL语言 #文章描述
-tag: zeroac #文章所属标签 可写你的昵称 方便归类
+tag: kong #文章所属标签 可写你的昵称 方便归类
 categories: jekyll update
 ---
 
