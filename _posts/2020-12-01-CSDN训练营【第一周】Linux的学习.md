@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSDN训练营【第一周】Linux的学习#文章标题
+title: CSDN训练营【第一周】Linux的学习 #文章标题
 description: 这周的主要任务是学习关于Linux的知识 #文章描述
 tag: kang #文章所属标签
 categories: jekyll update
