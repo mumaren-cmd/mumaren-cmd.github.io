@@ -61,11 +61,11 @@ categories: jekyll update
 
 ## 二、Linux C 学习
 
-**认真学习以下两门课程**
+**请大家认真学习以下两门课程**
 
-[](https://www.imooc.com/learn/394)
+[Linux C语言指针与内存](https://www.imooc.com/learn/394)
 
-[](https://www.imooc.com/learn/248)
+[Linux C语言编程基本原理与实践](https://www.imooc.com/learn/248)
 
 
 
