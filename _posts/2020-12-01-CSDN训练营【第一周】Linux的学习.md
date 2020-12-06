@@ -1,7 +1,7 @@
 ---
 layout: post
-title: CSDN训练营【第一周】Linux的学习 #文章标题
-description: 这周的主要任务是学习关于Linux的知识 #文章描述
+title: CSDN训练营【第一周】Linux的学习 
+description: 这周的主要任务是学习关于Linux的知识 # 文章描述
 tag: kang #文章所属标签
 categories: jekyll update
 ---
@@ -16,7 +16,7 @@ categories: jekyll update
 5.熟悉Linux网络管理及常用配置；
 6.了解Linux服务
 
-**了解Linux操作系统与不同发行版本特点**
+## 了解Linux操作系统与不同发行版本特点
 1、版本：
 a、Ubuntu，是一个以桌面应用为主的Linux操作系统,其名称来自非洲南部祖鲁语或豪萨语的"ubuntu"一词，意思是"人性"、“我的存在是因为大家的存在”，是非洲传统的一种价值观.，Ubuntu基于linux的免费开源桌面PC操作系统，十分契合英特尔的超极本定位，支持x86、64位和ppc架构
 b、CentOS(Community Enterprise Operating System，中文意思是:社区企业操作系统)是Linux发行版之一
