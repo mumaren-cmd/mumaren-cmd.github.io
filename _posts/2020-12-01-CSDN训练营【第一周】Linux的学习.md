@@ -6,7 +6,7 @@ tag: kang #文章所属标签
 categories: jekyll update
 ---
 
-## **CSDN训练营【第一周】Linux的学习**
+## CSDN训练营【第一周】Linux的学习
 
 这周的主要任务是学习关于Linux的知识，主要分为以下六个方面：
 1.了解Linux操作系统与不同发行版本特点；
