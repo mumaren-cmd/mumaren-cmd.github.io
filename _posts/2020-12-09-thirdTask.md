@@ -63,9 +63,9 @@ categories: jekyll update
 
 **认真学习以下两门课程**
 
-https://www.imooc.com/learn/394
+[](https://www.imooc.com/learn/394)
 
-https://www.imooc.com/learn/248
+[](https://www.imooc.com/learn/248)
 
 
 
