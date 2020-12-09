@@ -2,7 +2,7 @@
 layout: post
 title: 第三周任务
 description: git操作视频&linux C
-tag: Notice.
+tag: Notice
 categories: jekyll update
 ---
 
