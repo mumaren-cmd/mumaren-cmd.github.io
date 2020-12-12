@@ -2,7 +2,7 @@
 layout: post
 title: 第三周任务
 description: git操作视频&linux C
-tag: Notice.
+tag: Notice
 categories: jekyll update
 ---
 
@@ -37,27 +37,74 @@ categories: jekyll update
 ### step 2： 在本地编写md文档切分支修改合并提交
 
 > md提交格式参考 [readme](https://mumaren-cmd.github.io/2020/12/readme/)
+> 假定你的md文档名为myTest.md 则先进入其所在目录。
+> 并输入以下命令提交到远程仓库
 >
-> 提交完毕后主动切出一个新的分支 用来进一步修改你的md文档
->
-> 然后合并到主分支 处理冲突 提交更新 删除新的分支
+> ```shell
+> git add . #将当前所有更改添加到暂存区
+> git commit -m "add myTest.md" #提交到本地仓库
+> git push origin master #推送到远程仓库
+> ```
+> 提交完毕后 在本地新建并切换到一个新的分支dev上
+> ```shell
+> git checkout -b dev #新建分支dev(可自定义) 并切换到该分支上
+> ```
+> 然后在`myTest.md`的结尾处添加一段话 `modify dev`
+> ```shell
+> echo "modify_dev" >> myTest.md
+> ```
+> 然后将此改变提交到本地分支的仓库
+> ```shell
+> git add . #将当前所有更改添加到暂存区
+> git commit -m "add modify_dev to myTest.md" #提交到本地仓库
+> ```
+> 然后切到主分支
+> ```shell
+> git checkout master
+> ```
+> 在主分支上做类似的修改
+> ```shell
+> echo "modify_master" >> myTest.md
+> git add . #将当前所有更改添加到暂存区
+> git commit -m "add modify_master to myTest.md" #提交到本地仓库
+> ```
+> 然后将dev分支合并到当前分支(master)上
+> ```shell
+> git merge dev
+> ```
+> 然后会出现冲突 提示修改`myTest.md`文件 来解决冲突
+> 于是`vim myTest.md` 去解决冲突 删除自动添加的冲突标记并决定代码的去留
+> 然后再次输入以下命令
+> ```shell
+> git add.
+> git commit -m "solved conflict of myTest.md "
+> git push origin master #冲突解决完毕 推送到远程仓库中
+> git branch -d dev #工作完毕 删除本地的dev分支
+> ```
+> 然后在[团队博客](https://mumaren-cmd.github.io)上查看效果
 ### step3：拍摄视频
 
 > 当**step 2**过程练熟之后，在同一校区的可互相拍摄视频 
 >
 > 拍摄者在拍摄过程中依次说出如下命令，电脑前同学依次执行 ：
 >
-> > 1.拉取最新分支 pull 
+> > 1.拉取最新仓库 `git pull` 
 > >
-> > 2.切一个新的分支 修改你的md文档
+> > 2.在本地切一个新的分支`dev` 修改你的md文档 并提交到本地仓库
 > >
-> > 3.合并到主分支(注意处理冲突)
+> > 3.切回主分支`master` 做相似的修改(用于产生冲突) 并提交到本地仓库
 > >
-> > 4.删除新的分支
+> > 4.把`新分支dev`合并到`主分支master`上
 > >
-> > 5.查看当前的git状态
+> > 5.解决冲突 并提交到远程仓库 
 > >
-> > 6.查看更改后的团队博客 展示效果
+> > 6.删除`新分支dev`
+> >
+> > 7.查看当前的git状态
+> >
+> > 8.在[团队博客](https://mumaren-cmd.github.io)展示更改效果
+> > 
+> > over
 
 ## 二、Linux C 学习
 
@@ -66,8 +113,5 @@ categories: jekyll update
 [Linux C语言指针与内存](https://www.imooc.com/learn/394)
 
 [Linux C语言编程基本原理与实践](https://www.imooc.com/learn/248)
-
-qqqqqqdsfsf
-qqqqqqqqq
-aaaa
-add by leo
+modify dev test
+modify master test
