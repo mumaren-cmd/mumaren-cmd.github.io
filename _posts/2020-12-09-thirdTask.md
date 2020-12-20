@@ -112,6 +112,13 @@ categories: jekyll update
 
 [Linux C语言指针与内存](https://www.imooc.com/learn/394)
 
+
 [Linux C语言编程基本原理与实践](https://www.imooc.com/learn/248)
+<<<<<<< HEAD
+
+aaaaaaaa
+dafaf
+=======
 modify dev test
 modify master test
+>>>>>>> 770b453c216bbab66c52a7beb3048304787b8fdf
